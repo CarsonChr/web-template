@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "esbuild": "0.17.19",
+    "eslint": "^8.41.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "alwaysStrict": true,
+        
+        "exactOptionalPropertyTypes": true,
+        "forceConsistentCasingInFileNames": false,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        // "outFile": "../dist/bundle.js",
+        "outDir": "../dist",
+        "allowJs": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "compileOnSave": false
+}
